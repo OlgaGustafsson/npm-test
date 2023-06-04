@@ -49,9 +49,9 @@ function App() {
         {/* <div>{greeting}</div>
         <div>{extendedGreeting}</div> */}
 
-        <button onClick={handleGenerateGreeting}>Generate Greeting</button>
+        <button className="generateGreeting" onClick={handleGenerateGreeting}>Generate Greeting</button>
         <div>{greeting}</div>
-        <button onClick={handleGenerateExtendedGreeting}>Generate Extended Greeting</button>
+        <button className="generateExtendedGreeting" onClick={handleGenerateExtendedGreeting}>Generate Extended Greeting</button>
         <div>{extendedGreeting}</div>
 
         <a
